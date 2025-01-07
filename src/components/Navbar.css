@@ -26,5 +26,5 @@ body {
         @apply p-0 m-0 list-none flex gap-0
     }
 
-    @apply bg-gray-800 text-white flex justify-between items-stretch gap-4 pl-4 pr-4 pb-2 pt-2
+    @apply fixed z-50 inset-x-0 top-0 bg-gray-800 text-white flex justify-between items-stretch gap-4 pl-4 pr-4 pb-2 pt-2
 }

@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 :root {
-    @apply bg-gray-950 text-white font-mono
+    @apply bg-gray-950 text-white font-mono overflow-x-hidden scrollbar-thin scrollbar-thumb-sky-900 scrollbar-track-sky-950
+}
+
+.home_image_wrapper {
+    img{
+        .white_filter {
+            @apply invert-[.96] saturate-[7500] hue-rotate-[156] brightness-[107] contrast-[108]
+        }
+
+        @apply w-20 h-auto
+    }
+
+    @apply m-6
 }

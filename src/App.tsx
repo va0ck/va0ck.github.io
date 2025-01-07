@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import Loader from './components/Loader';
 import { Home } from './pages/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   const [loadingSpinner, setLoadingSpinner] = useState(true);
@@ -27,9 +28,13 @@ function App() {
       (<>
         <Navbar />
 
-        <Routes>
-          <Route index element={<Home />} />
-        </Routes>
+        <div className='pt-14'>
+          <Routes>
+            <Route index element={<Home />} />
+          </Routes>
+        </div>
+
+        <Footer/>
       </>)}
     </>
   )
