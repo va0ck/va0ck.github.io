@@ -7,7 +7,7 @@ module.exports = {
     theme: {
       extend: {
         backgroundImage: {
-          'parallax': `url('../assets/images/HomeBanner.png')`,
+          'parallax': `url('/HomeBanner.png')`,
         }
       },
     },
