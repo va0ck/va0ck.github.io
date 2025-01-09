@@ -1,4 +1,4 @@
-import { getAvatarThumbnailByUserIds, getUserByUserId, robloxThumbnailsAvatarApi, robloxUserApi } from "../../hooks/RobloxApi"
+import { getAvatarThumbnailByUserIds, getUserByUserId, robloxThumbnailsAvatarApi, robloxUserApi } from "../../hooks/RobloxApi.tsx"
 
 import Marquee from "react-fast-marquee";
 import PlaceHolder from "../../assets/images/placeholder-1024x1024.png"
@@ -169,9 +169,6 @@ export function DevelopersMarqueeFetchData(){
     }).catch((error) => {
         console.error('Promise rejected [DevelopersThumbnailsPromsie] with error: ' + error)
     })
-
-    console.log(`FETCHED DEVELOPERMARQUEE:`);
-    console.log(DEVELOPERS_FETCHED);
 }
 
 export function DevelopersMarquee(){
@@ -181,14 +178,14 @@ export function DevelopersMarquee(){
         {DEVELOPERS_FETCHED.map((getValue, getKey) => (
             <a href={getValue.rblxLink} key={getKey} target='_blank'>
                 <div className="relative overflow-hidden m-2 w-80 h-56 hover:-translate-y-2 duration-300 rounded-3xl cursor-pointer text-2xl font-bold bg-blue-950">
-                    <img src={getValue.imgFetched} className="flex w-60 mt-0"/>
+                    <img src={getValue.imgFetched} className="flex w-60 mt-0 -ml-6"/>
                     <h1 className="z-10 flex absolute bottom-0 pl-4 pb-3">@{getValue.username}</h1>
                 </div>
             </a>
         ))}
         {DEVELOPERS_FETCHED.length == 0 ? (
             <div className="relative overflow-hidden m-2 w-80 h-56 hover:-translate-y-2 duration-300 rounded-3xl cursor-pointer text-2xl font-bold bg-blue-950">
-                <img src={PlaceHolder} className="flex w-60 mt-0"/>
+                <img src={PlaceHolder} className="flex w-60 mt-0 -ml-6"/>
                 <h1 className="z-10 flex absolute bottom-0 pl-4 pb-3">ERROR: NONE LOADED!</h1>
             </div>
         ): (<></>)}
