@@ -19,8 +19,6 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: ./dist
-    - name: Allow [Access-Control-Allow-Origin]
-      run: curl -v enable-cors.org > /dev/null
   deploy:
     runs-on: ubuntu-latest
     needs: build
