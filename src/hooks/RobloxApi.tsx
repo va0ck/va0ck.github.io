@@ -37,7 +37,7 @@ export type robloxThumbnailsAvatarApi = {
     version: string
 }
 export async function getAvatarThumbnailByUserIds(userIds: number[]): Promise<robloxThumbnailsAvatarApi[]>{ //This is bulk so we bulkin today!
-  return fetch(proxyUrl+`https://thumbnails.roblox.com/v1/users/avatar?userIds=${userIds}&size=180x180&format=Png&isCircular=false`)
+  return fetch(proxyUrl+encodeURIComponent(`https://thumbnails.roblox.com/v1/users/avatar?userIds=${userIds}&size=180x180&format=Png&isCircular=false`))
   .then(response => {
       if (!response.ok) {
         throw new Error(response.statusText)
