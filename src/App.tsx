@@ -1,32 +1,19 @@
 import './App.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 
 //Components
 import Loader from './components/Loader';
 
 import { Home } from './pages/Home';
-import { DevelopersMarqueeFetchData } from './pages/HomeComponents/DevelopersMarquee';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { Works } from './pages/Works';
+import { Tools } from './pages/Tools';
 
 function App() {
-  const [loadingSpinner, setLoadingSpinner] = useState(false);
-
-  useEffect(() => {
-    setLoadingSpinner(true);
-
-    try {
-      DevelopersMarqueeFetchData();
-    } finally {
-      setLoadingSpinner(true);
-    }
-
-    setTimeout(() => {
-      setLoadingSpinner(false);
-    }, 3000)
-  }, [])
+  const [loadingSpinner] = useState(false);
 
   return (
     <>
@@ -38,6 +25,8 @@ function App() {
         <div className='pt-14'>
           <Routes>
             <Route index element={<Home />} />
+            <Route path='works' element={<Works />} />
+            <Route path='tools' element={<Tools />} />
           </Routes>
         </div>
 

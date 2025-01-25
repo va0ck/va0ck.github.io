@@ -1,13 +1,13 @@
 import Marquee from "react-fast-marquee";
 
-import reactImg from "../../assets/icons/Home/react.svg"
-import expoImg from "../../assets/icons/Home/expo.svg"
-import tailwindImg from "../../assets/icons/Home/tailwindcss.svg"
-import jsImg from "../../assets/icons/Home/javascript.svg"
-import tsImg from "../../assets/icons/Home/typescript.svg"
-import rblxTsImg from "../../assets/icons/Home/robloxts.svg"
-import luauImg from "../../assets/icons/Home/luau.png"
-import viteImg from "../../assets/icons/Home/vite.svg"
+import reactImg from "../assets/icons/Home/react.svg"
+import expoImg from "../assets/icons/Home/expo.svg"
+import tailwindImg from "../assets/icons/Home/tailwindcss.svg"
+import jsImg from "../assets/icons/Home/javascript.svg"
+import tsImg from "../assets/icons/Home/typescript.svg"
+import rblxTsImg from "../assets/icons/Home/robloxts.svg"
+import luauImg from "../assets/icons/Home/luau.png"
+import viteImg from "../assets/icons/Home/vite.svg"
 
 export function ToolsMarquee(){
     return <Marquee speed={10} gradient gradientColor="rgb(3 7 18)" autoFill className="overflow-hidden">
