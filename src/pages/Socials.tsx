@@ -86,7 +86,7 @@ export function Socials(){
                     <h1 className="text-2xl pt-2">Youtube @va0ck</h1>
                 </div>
             </a>
-            <a href="https://the-trials.fandom.com/wiki/The_Trials_Wiki" target="_blank">
+            <a href="https://the-trials.fandom.com/wiki/User:Va0ck" target="_blank">
                 <div className="w-72 h-40 m-3 bg-black rounded-xl 
                 hover:-translate-y-2 hover:bg-red-950
                 hover:drop-shadow-[0_0_2em_rgba(255,0,0,0.1)] duration-300
