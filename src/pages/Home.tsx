@@ -10,7 +10,7 @@ export function Home(){
         function updateSize() {
             setWidth(window.innerWidth);
 
-            if (width < 1130){
+            if (width < 1142){
                 setSwitchToFull(true);
             } else {
                 setSwitchToFull(false);
@@ -63,7 +63,7 @@ export function Home(){
         motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity'>
             Questions and Answers! ⭐
         </h1>
-        <div className='pt-6 pl-10 pr-10 flex flex-row flex-wrap justify-between items-center
+        <div className='pt-3 pl-10 pr-10 flex flex-row flex-wrap justify-between items-center
             motion-translate-x-in-[0%] motion-translate-y-in-[14%] motion-blur-in-[10px] motion-duration-[0.5s]/blur
         '>
             <article>
@@ -74,9 +74,9 @@ export function Home(){
                 <table>
                     <li className="text-sky-500"><a href='https://github.com/jsdotlua/react-lua' target='_blank'>React-Lua</a></li>
                     <li className="text-sky-500"><a href='https://github.com/chriscerie/roact-spring' target='_blank'>React-Spring</a></li>
-                    <li className="text-sky-500"><Link to="tools">Custom Modules</Link></li>
                     <li>Private Modules</li>
-                    <li className='pb-2 text-sky-500'><a href="https://youtu.be/28z_064N-lc?si=L-FH-LndT1Acn1dm&t=520" target='_blank'>Modified CrusherFire Loader</a></li>
+                    <li className='text-sky-500'><a href="https://youtu.be/28z_064N-lc?si=L-FH-LndT1Acn1dm&t=520" target='_blank'>Modified CrusherFire Loader</a></li>
+                    <li className="text-sky-500" pb-2><Link to="/works">Public Custom Modules [OSS Section]</Link></li>
                 </table>
                 <p className='text-lg pb-2 font-bold italic'>[I can work with other modules as well!]</p>
                 <table>
@@ -95,14 +95,15 @@ export function Home(){
 
                 <p className='text-2xl pb-2 font-bold italic'>What about things you don't know?</p>
                 <p>I'm pretty much willing to learn anything.</p>
-                <p>If you use Nevermore or a different framework,</p>
+                <p>If you use Nevermore, Flamework, or anything,</p>
                 <p className='pb-4'>I'm cool with learning it. 👍</p>
 
                 <p className='text-2xl pb-2 font-bold italic'>What do you use for reference?</p>
+                <p>Generally these three things which I really love.</p>
                 <table>
                     <li className="text-sky-500"><a href='https://www.roblox.com/games/12606338918/PENTHOUSES-STOCK-CRASH' target='_blank'>UI Reference [Unroot | STOCK CRASH 📈]</a></li>
-                    <li className="text-sky-500"><a href='https://x.com/Fluorlite' target='_blank'>PBR Building Style [Fluorlite | X Posts]</a></li>
-                    <li className="text-sky-500 pb-4"><a href='https://www.roblox.com/games/8473958692/The-Trials-PHASE-2' target='_blank'>Vanilla Building Style [Zelnus | The Trials]</a></li>
+                    <li className="text-sky-500"><a href='https://www.roblox.com/games/8473958692/The-Trials-PHASE-2' target='_blank'>Vanilla Building Style [Zelnus | The Trials]</a></li>
+                    <li className="text-sky-500 pb-4"><a href='https://www.roblox.com/users/74972628/profile' target='_blank'>PBR Building Style [Fluorlite | Roblox Profile]</a></li>
                 </table>
             </article>
 

@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Works } from './pages/Works';
-import { Tools } from './pages/Tools';
+import { Socials } from './pages/Socials';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path='/works' element={<Works />} />
-          <Route path='/tools' element={<Tools />} />
+          <Route path='/socials' element={<Socials />} />
         </Routes>
       </div>
 

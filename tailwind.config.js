@@ -8,6 +8,8 @@ module.exports = {
       extend: {
         backgroundImage: {
           'home': `url('/HomeBanner.png')`,
+          'works': `url('/WorkBanner.png')`,
+          'socials': `url('/SocialsBanner.png')`,
         }
       },
     },

@@ -4,6 +4,7 @@ import DevforumLogo from '../assets/icons/Navbar/Roblox_Devforum_Logo.svg'
 import GithubLogo from '../assets/icons/Navbar/github-mark-white.svg'
 import DiscordLogo from '../assets/icons/Navbar/discord-icon.svg'
 import { useState, useLayoutEffect } from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [width, setWidth] = useState(0);
@@ -13,7 +14,7 @@ const Navbar = () => {
         function updateSize() {
             setWidth(window.innerWidth);
 
-            if (width < 480){
+            if (width < 530){
                 setDisplayLinks(false);
             } else {
                 setDisplayLinks(true);
@@ -26,10 +27,10 @@ const Navbar = () => {
       }, [width]);
 
     return (<nav className='nav'>
-        <a href="/" className="site-title hover:drop-shadow-[0_0_2em_rgba(255,255,255,1)] duration-300">Va0ck</a>
+        <Link to="/" className="site-title hover:drop-shadow-[0_0_2em_rgba(255,255,255,1)] duration-300">Va0ck</Link>
         <ul className='links'>
-            <li><a href="/works">Works</a></li>
-            <li><a href="/tools">Tools</a></li>
+            <li><Link to="/works">Works</Link></li>
+            <li><Link to="/socials">Socials</Link></li>
         </ul>
 
         {displayLinks ? (
