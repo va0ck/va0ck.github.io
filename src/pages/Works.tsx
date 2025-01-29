@@ -1,4 +1,6 @@
-
+//Home
+import RobloxLogo from "../assets/icons/Navbar/Roblox_Logo.svg"
+import GithubLogo from "../assets/icons/Navbar/github-mark-white.svg"
 
 export function Works(){
     
@@ -13,17 +15,47 @@ export function Works(){
 
         <h1 className="text-4xl font-extrabold italic pt-6 pb-2 pl-8 pr-8 
         motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity
-        ">Current Works & Clients! 🏢</h1>
+        ">Open Examples & Modules! 🛠️</h1>
+
+        <div className="pr-6 pl-6 flex flex-row flex-wrap">
+            <a href="https://github.com/va0ck/folder-net" target="_blank">
+                <div className="w-72 h-40 m-3 bg-black rounded-xl 
+                hover:-translate-y-2 hover:bg-neutral-800
+                hover:drop-shadow-[0_0_2em_rgba(255,255,255,0.1)] duration-300
+                hover:font-extrabold italic
+                flex justify-center items-center flex-col">
+                    <img src={GithubLogo} className="h-16 w-16"/>
+                    <h1 className="text-2xl pt-2">FolderNet</h1>
+                </div>
+            </a>
+        </div>
 
 
         <h1 className="text-4xl font-extrabold italic pt-6 pb-2 pl-8 pr-8 
         motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity
-        ">Open Tools & Modules! 🛠️</h1>
+        ">Clients & Past Works! 🗃️</h1>
 
-
-
-        <h1 className="text-4xl font-extrabold italic pt-6 pb-2 pl-8 pr-8 
-        motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity
-        ">Past Works! 🗃️</h1>
+        <div className="pr-6 pl-6 flex flex-row flex-wrap">
+            <a href="https://www.roblox.com/games/94222366715596/Robloxian-Physical" target="_blank">
+                <div className="w-72 h-40 p-4 m-3 bg-black rounded-xl 
+                hover:-translate-y-2 hover:bg-neutral-950
+                hover:drop-shadow-[0_0_2em_rgba(255,255,255,0.1)] duration-300
+                hover:font-extrabold italic
+                flex justify-center items-center flex-col">
+                    <img src={RobloxLogo} className="h-16 w-16"/>
+                    <h1 className="text-2xl pt-2">Roblox Physical</h1>
+                </div>
+            </a>
+            <a href="https://www.roblox.com/games/18195981126/ended-2024-Epic-Event-Lobby" target="_blank">
+                <div className="w-72 h-40 p-4 m-3 bg-black rounded-xl 
+                hover:-translate-y-2 hover:bg-neutral-950
+                hover:drop-shadow-[0_0_2em_rgba(255,255,255,0.1)] duration-300
+                hover:font-extrabold italic
+                flex justify-center items-center flex-col">
+                    <img src={RobloxLogo} className="h-16 w-16"/>
+                    <h1 className="text-2xl pt-2">Epic Event 2024</h1>
+                </div>
+            </a>
+        </div>
     </>
 }

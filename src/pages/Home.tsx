@@ -71,27 +71,27 @@ export function Home(){
                 <li className='pb-4'>Nope, if I need work I'll look for it.</li>
 
                 <p className='text-2xl pb-2 font-bold italic'>What do you mainly use for Roblox?</p>
-                <table>
+                <ul>
                     <li className="text-sky-500"><a href='https://github.com/jsdotlua/react-lua' target='_blank'>React-Lua</a></li>
                     <li className="text-sky-500"><a href='https://github.com/chriscerie/roact-spring' target='_blank'>React-Spring</a></li>
                     <li>Private Modules</li>
                     <li className='text-sky-500'><a href="https://youtu.be/28z_064N-lc?si=L-FH-LndT1Acn1dm&t=520" target='_blank'>Modified CrusherFire Loader</a></li>
-                    <li className="text-sky-500" pb-2><Link to="/works">Public Custom Modules [OSS Section]</Link></li>
-                </table>
+                    <li className="text-sky-500 pb-2"><Link to="/works">Public Custom Modules [OSS Section]</Link></li>
+                </ul>
                 <p className='text-lg pb-2 font-bold italic'>[I can work with other modules as well!]</p>
-                <table>
+                <ul>
                     <li className="text-sky-500"><a href='https://elttob.uk/Fusion' target='_blank'>Fusion</a></li>
                     <li className="text-sky-500"><a href='https://roblox-ts.com/' target='_blank'>RobloxTS</a></li>
                     <li className='pb-4'>And willing to learn other ones!</li>
-                </table>
+                </ul>
             </article>
 
             <article>
                 <p className='text-2xl pb-2 font-bold italic'>What do you do outside of Roblox?</p>
-                <table>
+                <ul>
                     <li>Website Development!</li>
                     <li className='pb-4'>Cross-Platform App Development!</li>
-                </table>
+                </ul>
 
                 <p className='text-2xl pb-2 font-bold italic'>What about things you don't know?</p>
                 <p>I'm pretty much willing to learn anything.</p>
@@ -100,11 +100,11 @@ export function Home(){
 
                 <p className='text-2xl pb-2 font-bold italic'>What do you use for reference?</p>
                 <p>Generally these three things which I really love.</p>
-                <table>
+                <ul>
                     <li className="text-sky-500"><a href='https://www.roblox.com/games/12606338918/PENTHOUSES-STOCK-CRASH' target='_blank'>UI Reference [Unroot | STOCK CRASH 📈]</a></li>
                     <li className="text-sky-500"><a href='https://www.roblox.com/games/8473958692/The-Trials-PHASE-2' target='_blank'>Vanilla Building Style [Zelnus | The Trials]</a></li>
                     <li className="text-sky-500 pb-4"><a href='https://www.roblox.com/users/74972628/profile' target='_blank'>PBR Building Style [Fluorlite | Roblox Profile]</a></li>
-                </table>
+                </ul>
             </article>
 
             <article>
@@ -118,10 +118,10 @@ export function Home(){
                 <p className='text-2xl pb-2 font-bold italic'>Anything I need to know before DMing you?</p>
                 <p>Please follow with these two sites says.</p>
                 <p>I rather get straight into business instead of waiting.</p>
-                <table>
+                <ul>
                     <li className='text-sky-500'><a href="https://nohello.net/" target='_blank'>Don't just say hello please, just straight to business.</a></li>
                     <li className='text-sky-500 pb-4'><a href="https://dontasktoask.com/" target='_blank'>Don't ask to ask, just straight to the question you have.</a></li>
-                </table>
+                </ul>
             </article>
         </div>
     </>)
