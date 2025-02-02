@@ -68,29 +68,30 @@ export function Home(){
         '>
             <article>
                 <p className='text-2xl pb-2 font-bold italic'>Are you for hire?</p>
-                <li className='pb-4'>Nope, if I need work I'll look for it.</li>
+                <li className='pb-3'>Nope, if I need work I'll look for it.</li>
 
                 <p className='text-2xl pb-2 font-bold italic'>What do you mainly use for Roblox?</p>
                 <ul>
-                    <li className="text-sky-500"><a href='https://github.com/jsdotlua/react-lua' target='_blank'>React-Lua</a></li>
-                    <li className="text-sky-500"><a href='https://github.com/chriscerie/roact-spring' target='_blank'>React-Spring</a></li>
-                    <li>Private Modules</li>
-                    <li className='text-sky-500'><a href="https://youtu.be/28z_064N-lc?si=L-FH-LndT1Acn1dm&t=520" target='_blank'>Modified CrusherFire Loader</a></li>
-                    <li className="text-sky-500 pb-2"><Link to="/works">Public Custom Modules [OSS Section]</Link></li>
+                    <li className="text-sky-500"><a href='https://devforum.roblox.com/t/how-to-react-roblox/2964543?u=va0ck' target='_blank'>- React-Lua</a></li>
+                    <li className="text-sky-500"><a href='https://github.com/chriscerie/roact-spring' target='_blank'>- React-Spring</a></li>
+                    <li>- Private Modules</li>
+                    <li className='text-sky-500'><a href="https://youtu.be/28z_064N-lc?si=L-FH-LndT1Acn1dm&t=520" target='_blank'>- Modified CrusherFire Loader</a></li>
+                    <li className="text-sky-500 pb-2"><Link to="/works">- Public Custom Modules [OSS Section]</Link></li>
                 </ul>
-                <p className='text-lg pb-2 font-bold italic'>[I can work with other modules as well!]</p>
+                <p className='text-lg pb-2 font-bold italic'>[I also use these plugins! :3]</p>
                 <ul>
-                    <li className="text-sky-500"><a href='https://elttob.uk/Fusion' target='_blank'>Fusion</a></li>
-                    <li className="text-sky-500"><a href='https://roblox-ts.com/' target='_blank'>RobloxTS</a></li>
-                    <li className='pb-4'>And willing to learn other ones!</li>
+                    <li className="text-sky-500"><a href='https://devforum.roblox.com/t/ui-labs-modern-storybook-plugin-for-roblox/3109174?u=va0ck' target='_blank'>- UI Labs</a></li>
+                    <li className="text-sky-500"><a href='https://devforum.roblox.com/t/benchmarker-plugin-compare-function-speeds-with-graphs-percentiles-and-more/829912?u=va0ck' target='_blank'>- Benchmarker</a></li>
+                    <li className="text-sky-500"><a href='https://rojo.space/' target='_blank'>- Rojo [Optional]</a></li>
+                    <li className="text-sky-500 pb-2"><a href='https://devforum.roblox.com/t/luau-language-server-for-external-editors/2185389?u=va0ck' target='_blank'>- LuaU Language Server</a></li>
                 </ul>
             </article>
 
             <article>
                 <p className='text-2xl pb-2 font-bold italic'>What do you do outside of Roblox?</p>
                 <ul>
-                    <li>Website Development!</li>
-                    <li className='pb-4'>Cross-Platform App Development!</li>
+                    <li>- Website Development!</li>
+                    <li className='pb-4'>- Cross-Platform App Development!</li>
                 </ul>
 
                 <p className='text-2xl pb-2 font-bold italic'>What about things you don't know?</p>
@@ -101,9 +102,9 @@ export function Home(){
                 <p className='text-2xl pb-2 font-bold italic'>What do you use for reference?</p>
                 <p>Generally these three things which I really love.</p>
                 <ul>
-                    <li className="text-sky-500"><a href='https://www.roblox.com/games/12606338918/PENTHOUSES-STOCK-CRASH' target='_blank'>UI Reference [Unroot | STOCK CRASH 📈]</a></li>
-                    <li className="text-sky-500"><a href='https://www.roblox.com/games/8473958692/The-Trials-PHASE-2' target='_blank'>Vanilla Building Style [Zelnus | The Trials]</a></li>
-                    <li className="text-sky-500 pb-4"><a href='https://www.roblox.com/users/74972628/profile' target='_blank'>PBR Building Style [Fluorlite | Roblox Profile]</a></li>
+                    <li className="text-sky-500"><a href='https://www.roblox.com/games/12606338918/PENTHOUSES-STOCK-CRASH' target='_blank'>- UI Reference [Unroot | STOCK CRASH 📈]</a></li>
+                    <li className="text-sky-500"><a href='https://www.roblox.com/games/8473958692/The-Trials-PHASE-2' target='_blank'>- Vanilla Building Style [Zelnus | The Trials]</a></li>
+                    <li className="text-sky-500 pb-4"><a href='https://www.roblox.com/users/74972628/profile' target='_blank'>- PBR Building Style [Fluorlite | Roblox Profile]</a></li>
                 </ul>
             </article>
 
@@ -112,15 +113,24 @@ export function Home(){
                 <p>I don't plan on it, I usually love learning things solo.</p>
                 <p className='pb-4'>If I do need someone though, I'll contact them first.</p>
 
-                <p className='text-2xl pb-2 font-bold italic'>Does ChaChaBenjo have ligma?</p>
-                <p className='pb-10'>He does, no doubt...</p>
+                <p className='text-2xl pb-2 font-bold italic'>What do you usually follow?</p>
+                <p>Mainly a lot of things from
+                    <a className="text-sky-500 pl-2" href='https://devforum.roblox.com/t/creator-spotlight-how-unroot-designs-ui-for-marbles-mermaids-and-more/3077233?u=va0ck' target='_blank'>
+                      Unroot Devforum Spotlight!
+                    </a>
+                </p>
+                <ul className='pb-2'>
+                    <li className="text-sky-500"><a href="https://www.w3.org/TR/WCAG/" target='_blank'>- WCAG</a></li>
+                    <li className='text-sky-500'><a href="https://create.roblox.com/docs/production/publishing/accessibility" target='_blank'>- Roblox</a></li>
+                    <li className="text-sky-500"><a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-games" target='_blank'>- Apple UI</a></li>
+                </ul>
 
                 <p className='text-2xl pb-2 font-bold italic'>Anything I need to know before DMing you?</p>
                 <p>Please follow with these two sites says.</p>
                 <p>I rather get straight into business instead of waiting.</p>
                 <ul>
-                    <li className='text-sky-500'><a href="https://nohello.net/" target='_blank'>Don't just say hello please, just straight to business.</a></li>
-                    <li className='text-sky-500 pb-4'><a href="https://dontasktoask.com/" target='_blank'>Don't ask to ask, just straight to the question you have.</a></li>
+                    <li className='text-sky-500'><a href="https://nohello.net/" target='_blank'>- Don't just say hello, just tell me.</a></li>
+                    <li className='text-sky-500'><a href="https://dontasktoask.com/" target='_blank'>- Don't ask to ask, say it.</a></li>
                 </ul>
             </article>
         </div>

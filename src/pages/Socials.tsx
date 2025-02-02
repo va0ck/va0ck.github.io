@@ -15,7 +15,7 @@ import BlueskyLogo from "../assets/icons/Socials/Bluesky.svg"
 //Content
 export function Socials(){
     return <>
-        <title>Contacts - Va0ck</title>
+        <title>Socials - Va0ck</title>
         
         <div className='bg-fixed bg-cover bg-socials bg-top'>
             <div className='flex h-40 items-center justify-start pl-10 pr-10 bg-gradient-to-t from-cyan-950 to-blue-400]'>

@@ -17,7 +17,8 @@ export function Works(){
         motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity
         ">Open Examples & Modules! 🛠️</h1>
 
-        <div className="pr-6 pl-6 flex flex-row flex-wrap">
+        <div className="pr-6 pl-6 flex flex-row flex-wrap
+         motion-translate-x-in-[0%] motion-translate-y-in-[14%] motion-blur-in-[10px] motion-duration-[0.5s]/blur">
             <a href="https://github.com/va0ck/folder-net" target="_blank">
                 <div className="w-72 h-40 m-3 bg-black rounded-xl 
                 hover:-translate-y-2 hover:bg-neutral-800
@@ -35,7 +36,9 @@ export function Works(){
         motion-translate-x-in-[-10%] motion-translate-y-in-[0%] motion-blur-in-[10px] motion-duration-[0.3s]/opacity
         ">Clients & Past Works! 🗃️</h1>
 
-        <div className="pr-6 pl-6 flex flex-row flex-wrap">
+        <div className="pr-6 pl-6 flex flex-row flex-wrap
+         motion-translate-x-in-[0%] motion-translate-y-in-[14%] motion-blur-in-[10px] motion-duration-[0.5s]/blur
+        ">
             <a href="https://www.roblox.com/games/94222366715596/Robloxian-Physical" target="_blank">
                 <div className="w-72 h-40 p-4 m-3 bg-black rounded-xl 
                 hover:-translate-y-2 hover:bg-neutral-950
