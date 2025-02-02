@@ -130,7 +130,7 @@ export function Home(){
                 <p>I rather get straight into business instead of waiting.</p>
                 <ul>
                     <li className='text-sky-500'><a href="https://nohello.net/" target='_blank'>- Don't just say hello, just tell me.</a></li>
-                    <li className='text-sky-500'><a href="https://dontasktoask.com/" target='_blank'>- Don't ask to ask, say it.</a></li>
+                    <li className='text-sky-500'><a href="https://dontasktoask.com/" target='_blank'>- Don't ask to ask, just ask it.</a></li>
                 </ul>
             </article>
         </div>
