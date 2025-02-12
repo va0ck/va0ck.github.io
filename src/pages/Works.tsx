@@ -19,7 +19,7 @@ export function Works(){
 
         <div className="pr-6 pl-6 flex flex-row flex-wrap
          motion-translate-x-in-[0%] motion-translate-y-in-[14%] motion-blur-in-[10px] motion-duration-[0.5s]/blur">
-            <a href="https://github.com/va0ck/folder-net" target="_blank">
+            <a href="https://va0ck.com/folder-net/" target="_blank">
                 <div className="w-72 h-40 m-3 bg-black rounded-xl 
                 hover:-translate-y-2 hover:bg-neutral-800
                 hover:drop-shadow-[0_0_2em_rgba(255,255,255,0.1)] duration-300
