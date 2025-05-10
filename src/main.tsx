@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')!).render(
   <HashRouter>
     <StrictMode>
       {/* DefaultTheme is system. light | dark */}
-      <ThemeProvider defaultTheme='light'>
+      <ThemeProvider defaultTheme='system'>
         <App/>
       </ThemeProvider>
     </StrictMode>
